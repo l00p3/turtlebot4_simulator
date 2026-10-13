@@ -1,14 +1,10 @@
-# Turtlebot4 Simulator
+# Turtlebot4 Simulator (Luca's version)
 
-Turtlebot4 Simulation using Harmonic Gazebo for ROS 2 Jazzy.
+The things that you need to install to make this work properly:
 
-Visit the [TurtleBot 4 User Manual](https://turtlebot.github.io/turtlebot4-user-manual/software/turtlebot4_simulator.html) for details.
+- Have the turtlebot4 package from Luca as well
+- sudo apt install ros-jazzy-turtlebot4-desktop   
+- sudo apt install ros-jazzy-irobot-create-description
+- sudo apt install ros-jazzy-irobot-create-gz-bringup
+- sudo apt install ros-jazzy-irobot-create-gz-plugins
 
-## Installation
-```bash
-sudo apt-get update && sudo apt-get install wget
-sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
-wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install gz-harmonic ros-jazzy-turtlebot4-simulator
-```
